@@ -7,8 +7,8 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-url: https://yourblog.com
-root: /
+url: https://13041936923.github.io
+root: /ruweng/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -76,6 +76,6 @@ theme: nebula
 # Deployment
 deploy:
   type: git
-  repo: https://github.com/yourname/yourname.github.io.git   # 改成你的仓库地址
-  branch: gh-pages
+  repo: https://github.com/13041936923/ruweng.git
+  branch: main
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
