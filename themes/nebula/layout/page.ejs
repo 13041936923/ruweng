@@ -145,10 +145,6 @@
                 <span class="guestbook-time">2024-03-15</span>
               </div>
               <p class="guestbook-text">写得真棒！学到了很多关于 React Hooks 的知识，期待更多精彩内容！</p>
-              <div class="guestbook-actions">
-                <button class="action-btn">回复</button>
-                <button class="action-btn">引用</button>
-              </div>
             </div>
           </div>
           
@@ -160,10 +156,6 @@
                 <span class="guestbook-time">2024-03-10</span>
               </div>
               <p class="guestbook-text">友链已添加，期待长期合作！加油！💪</p>
-              <div class="guestbook-actions">
-                <button class="action-btn">回复</button>
-                <button class="action-btn">引用</button>
-              </div>
             </div>
           </div>
           
@@ -175,11 +167,22 @@
                 <span class="guestbook-time">2024-03-05</span>
               </div>
               <p class="guestbook-text">博客主题很酷！请问可以分享一下吗？</p>
-              <div class="guestbook-actions">
-                <button class="action-btn">回复</button>
-                <button class="action-btn">引用</button>
-              </div>
             </div>
+          </div>
+        </div>
+        
+        <!-- 留言评论功能 -->
+        <div class="comments-section">
+          <h3 class="comments-title">💬 留言讨论</h3>
+          <div id="comments">
+            <script src="https://utteranc.es/client.js"
+              repo="<%= theme.comment.repo %>"
+              issue-term="<%= theme.comment.issue_term %>"
+              label="comment"
+              theme="github-dark"
+              crossorigin="anonymous"
+              async>
+            </script>
           </div>
         </div>
         
