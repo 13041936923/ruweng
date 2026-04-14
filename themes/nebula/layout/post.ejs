@@ -95,7 +95,16 @@
       <!-- 评论区域 -->
       <div class="comments-section">
         <h3 class="comments-title">💬 留言讨论</h3>
-        <div id="comments"></div>
+        <div id="comments">
+          <script src="https://utteranc.es/client.js"
+            repo="<%= theme.comment.repo %>"
+            issue-term="<%= theme.comment.issue_term %>"
+            label="<%= theme.comment.label %>"
+            theme="github-dark"
+            crossorigin="anonymous"
+            async>
+          </script>
+        </div>
       </div>
     </main>
     
